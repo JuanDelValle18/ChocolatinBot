@@ -8,28 +8,15 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['Unptoadrih15', '👑 Mystic - Collaborator 1 👑', true],
-  ['50499698072', '👑 Mystic - Collaborator 2 👑', true],
-  ['51940617554', '👑 Mystic - Collaborator 3 👑', true],
-  ['51996089079', '👑 Mystic - Collaborator 4 👑', true],
-  ['573225236629', '👑 Mystic - Collaborator 5 👑', true],
-  ['593959425714', '👑 Mystic - Collaborator 6 👑', true],
-  ['50246028932', '👑 Mystic - Collaborator 7 👑', true],  
-  ['593968585283'],
-  ['5219992095479'],
-  ['5219991402134'],
-  ['5219993404349'],
-  ['593968585383'],
-  ['5219996125657']
+  ['50241033780', '𝑱𝒖𝒂𝒏 𝑪𝒂𝒓𝒍𝒐𝒔 - Editor', true]
 ] 
-global.suittag = ['5219993404349'] 
-global.prems = ['51995386439'] 
+global.suittag = ['50241033780'] 
+global.prems = ['50241033780'] 
 
-global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.packname = '𝑱.𝑪'
+global.author = '𝓒𝓱𝓸𝓬𝓸𝓵𝓪𝓽𝓲𝓷-𝓑𝓸𝓽'
+global.wm = '𝓒𝓱𝓸𝓬𝓸𝓵𝓪𝓽𝓲𝓷-𝓑𝓸𝓽'
+global.igfg = '𝓒𝓱𝓸𝓬𝓸𝓵𝓪𝓽𝓲𝓷-𝓑𝓸𝓽'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
@@ -482,8 +469,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*'
 global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.botdate = `⫹⫺ Date :  ${moment.tz('America/Guatemala').format('DD/MM/YY')}` //Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Guatemala').format('HH:mm:ss')}`//America/Guatemala
 global.fgif = {key: { participant : '0@s.whatsapp.net'}, message: { "videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999',  'gifPlayback': 'true',  'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}}
 global.multiplier = 99
 //*************************
